@@ -12,7 +12,7 @@ import datetime
 
 def database_connection():
 
-    connection=mysql.connector.connect(host="localhost",user="root",password="#Nikhil37", database="expense_tracker")
+    connection=mysql.connector.connect(host="localhost",user="root",password="12345678", database="expense_tracker")
 
     return connection
 
